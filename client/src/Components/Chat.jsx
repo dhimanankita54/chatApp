@@ -59,15 +59,15 @@ export const Chat = () => {
 
     return (
         <>
-            <Grid container display='flex' alignItems='center' justifyContent='center' height='97vh'>
-                <Grid item md={9} sm={12} xs={12} display='flex' flexDirection='row' backgroundColor='#0b0914' height='80vh' borderRadius={3} >
-                    <Grid item md={3} height='inherit' overflow='auto' className="contacts-container" borderRadius={2}>
+            <Grid container display='flex' alignItems='center' justifyContent='center' >
+                <Grid item md={12} sm={12} xs={12} display='flex' flexDirection='row' backgroundColor='#0b0914' height='97.5vh' borderRadius={3} >
+                    <Grid item md={3} height="inherit" overflow='auto' className="contacts-container" borderRadius={2}>
                         {isLoaded &&
                             <Contacts contacts={contacts} currUser={currUser} handleChat={handleChat} />
                         }
 
                     </Grid>
-                    <Grid item md={9} sm={12} xs={12} height='inherit'>
+                    <Grid item md={9} sm={12} xs={12} height='97.5vh'>
 
                         {isLoaded && currChat === undefined ?
                             <Welcome currUser={currUser} /> :

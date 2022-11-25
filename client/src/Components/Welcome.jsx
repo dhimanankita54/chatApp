@@ -9,7 +9,7 @@ export const Welcome = ({ currUser }) => {
     return (
         <>
             <Grid container>
-                <Grid item md={12} height='80vh' display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
+                <Grid item md={12} height='97vh' display='flex' flexDirection='column' alignItems='center' justifyContent='center' >
                     <img src='https://i.gifer.com/7V3E.gif' />
                     <Typography sx={{
                         color: 'white', fontWeight: 'bolder'

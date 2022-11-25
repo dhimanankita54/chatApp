@@ -80,7 +80,7 @@ export const ChatContainer = ({ currChat, currUser, socket }) => {
                         </Grid>
                         <Logout />
                     </Grid>
-                    <Grid item height="62vh" p={2} gap={2} display='flex' flexDirection='column' overflow='auto'
+                    <Grid item height="79vh" p={2} gap={2} display='flex' flexDirection='column' overflow='auto'
                         className="message-container" ref={scrollRef}
                     >
                         {messages.map((msg) => {
