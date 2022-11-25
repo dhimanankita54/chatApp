@@ -1,3 +1,7 @@
+body {
+  background-color: #131224;
+}
+
 .App {
   text-align: center;
 }
@@ -28,10 +32,39 @@
   color: #61dafb;
 }
 
+aside.EmojiPickerReact.epr-main {
+  position: absolute;
+  top: -500px;
+  height: '300px' !important
+}
+
+.contacts-container::-webkit-scrollbar {
+  background-color: #0b0914;
+  width: 10px;
+}
+
+.contacts-container::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #90A4AE;
+
+}
+
+.message-container::-webkit-scrollbar {
+  background-color: #0b0914;
+  width: 10px;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+  background-color: #3f3b52;
+  border-radius: 5px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
